@@ -9,10 +9,10 @@ function setup() {
 
   car =createSprite(50, 200, 50, 50);
   car.velocityX = speed;
-  car.shapeColour = color(255);
+  car.shapeColor = color(255);
 
   wall = createSprite(900,200,60,height/2);
-  wall.shapeColour = color(80,80,80);
+  wall.shapeColor = color(80,80,80);
 
 }
 
